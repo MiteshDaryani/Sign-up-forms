@@ -11,11 +11,45 @@
     
     <h1>Welcome</h1>
 
-    <form action = "www.google.com" method = "post"></form>
+    <form action = "www.google.com" method = "post">
     
-    <label for = "first_name">First Name:</label>
+    <fieldset>
+    
+        <label for = "first_name">First Name:</label>
 
-    <input type = "text" id = "first_name" name = "first_name" placeholder = "Thor">
+        <input type = "text" id = "first_name" name = "first_name" placeholder = "Thor">
+
+        <label for="last_name">Last Name:</label>
+
+        <input type = "text" id = "last_name" name = "last_name" placeholder = "Odinson">
+
+    </fieldset>
+
+    <fieldset>
+        
+        <label for="user_email">Email</label>
+
+        <input type = "email" id="user_email" name="email">
+
+        <label for="phone_number">Phone Number</label>
+
+        <input type="number" id="phone_number" name="number">
+
+    </fieldset>
+
+    <fieldset>
+
+        <label for="password">Password</label>
+
+        <input type="password" id="password">
+
+        <label for="confirm_password">Confirm Password</label>
+
+        <input type="password" id="confirm_password">
+
+    </fieldset>
+
+    </form>
 
 </body>
 </html>
