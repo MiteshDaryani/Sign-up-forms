@@ -1,0 +1,27 @@
+
+.image{
+   position: absolute;
+   left: 2em;
+   text-align: center;
+   
+}
+
+.container{
+    position: absolute;
+    right: 2em;
+}
+
+
+
+.email{
+    margin-top: 20px;
+    padding-right: 0px;
+}
+
+.pass{
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 20px;
+}
